@@ -102,7 +102,7 @@ export const PinnedStory = ({ steps }) => {
     <section id="thesis" ref={ref} className="relative bg-[#F5F6F8]" style={{ height: `${steps.length * 100 + 40}vh` }}>
       <div className="sticky top-0 mx-auto grid h-screen max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
         <div>
-          <h2 className="text-4xl font-bold leading-tight sm:text-5xl" style={serif}>Four levers that separate the top 0.1%</h2>
+          <h2 className="text-4xl font-bold leading-tight sm:text-5xl" style={serif}>Four levers that separate the top 0.1% Jet Digital Infotech</h2>
           <ul className="mt-9 space-y-3">
             {steps.map((s, i) => (
               <li key={s.t} className={`rounded-2xl border p-5 transition-all duration-500 ${i === a ? 'scale-[1.02] border-[#0B1220] bg-[#C9A66B] shadow-xl' : 'border-[#0B1220]/10 opacity-45'}`}>

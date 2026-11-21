@@ -272,7 +272,7 @@ export default function App() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold backdrop-blur"><Sparkles className="h-3.5 w-3.5 text-[#C9A66B]" /> Live closed-door broadcast · 28 Nov 2026, 7 PM IST</span>
             <HeroTitle />
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">A 2.5-hour live intensive on proprietary AI infrastructure, asymmetric positioning and high-margin deal flow, taught by four operators who have done it.</p>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">JET DIGITAL INFOTECH A 2.5-hour live intensive on proprietary AI infrastructure, asymmetric positioning and high-margin deal flow, taught by four operators who have done it.</p>
             <div className="mt-8"><p className="mb-3 flex items-center gap-2 text-xs font-semibold text-white/60"><Clock className="h-3.5 w-3.5" /> Registration closes in</p><Countdown /></div>
             <div className="mt-9 flex flex-wrap gap-4">
               <Btn variant="lime" onClick={() => open()}>Claim executive pass <ArrowUpRight className="h-4 w-4" /></Btn>
@@ -296,7 +296,7 @@ export default function App() {
       {/* WORD REVEAL */}
       <section className="mx-auto max-w-5xl px-6 py-32">
         <WordReveal className="text-3xl font-bold leading-snug sm:text-5xl"
-          text="Most founders work harder to earn more. The top one percent build structures that earn while they sleep." />
+          text="JET DIGITAL INFOTECH Most founders work harder to earn more. The top one percent build structures that earn while they sleep." />
       </section>
 
       {/* PINNED STORY */}
@@ -400,7 +400,7 @@ export default function App() {
         </div>
       </section>
 
-      <footer className="bg-[#0B1220] py-8 text-center text-xs text-white/50">© 2026 The Unfair Advantage Executive Summit. All rights reserved.</footer>
+      <footer className="bg-[#0B1220] py-8 text-center text-xs text-white/50">© 2026 Jet Digital Infotech. All rights reserved.</footer>
 
       {/* REGISTRATION MODAL */}
       <AnimatePresence>

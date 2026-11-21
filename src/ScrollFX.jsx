@@ -88,7 +88,7 @@ export function HorizontalShowcase() {
     <section ref={ref} className="relative h-[400vh] bg-[#E6EAF2]/40">
       <div className="sticky top-0 flex h-screen flex-col justify-center overflow-hidden">
         <div className="mx-auto mb-8 flex w-full max-w-7xl items-end justify-between px-6">
-          <h2 className="text-4xl font-bold sm:text-5xl" style={serif}>What happens inside</h2>
+          <h2 className="text-4xl font-bold sm:text-5xl" style={serif}>What happens inside Jet Digital Infotech</h2>
           <div className="hidden h-1 w-48 overflow-hidden rounded-full bg-[#0B1220]/10 sm:block"><motion.div style={{ width: bar }} className="h-full bg-[#0B1220]" /></div>
         </div>
         <motion.div style={{ x }} className="flex gap-6 pl-6">
